@@ -1,0 +1,34 @@
+#cls{
+    width: 120px;
+  }
+  
+  #ip{
+    width: 200px;
+    height: 50px;
+    font-size: 200%;
+    border: solid black;
+    
+  }
+
+  #hd1{
+      text-align: center;
+  }
+
+  .form{
+    height: 425x;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black ;
+  }
+
+  input[type=button]{
+      height: 60px;
+      width: 60px;
+      color: darkgray;
+      background: black;
+      margin: 1px;
+      border-radius: 8px;
+      border: none;
+  }
+
+  

@@ -1,0 +1,53 @@
+<html> 
+  <head>
+
+
+
+  <title>  A Simple Calcuator </title>
+  <h2 id="hd1"> A Simple Calcuator </h2>
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="fxn.js" type="text/javascript">
+    
+   </script> 
+
+  </head>
+
+<body>
+  <div class="form">
+    <form name="calc" >
+    <input type="text" name="input" id="ip" placeholder="0" style="text-align:right"  >
+    <br>
+    <input type="button" name="cls" id="cls" value="CLS" onclick="calc.input.value= ' ' ">
+    <input type="button" name="addBTN" class="num1" value="+" onclick="calc.input.value +='+'">
+    <input type="button" name="subBTN" class="num" value="-" onclick="calc.input.value +='-'">
+    <input type="button" name="mulBTN" class="num" value="*" onclick="calc.input.value +='*'">
+    <input type="button" name="divBTN" class="num" id="divi" value="/" onclick="calc.input.value +='/'">
+    <br>
+    <input type="button" name=BTN7 class="num" value="7" onclick="calc.input.value +='7'">
+    <input type="button" name=BTN8 class="num" value="8" onclick="calc.input.value +='8'">
+    <input type="button" name=BTN9 class="num" value="9" onclick="calc.input.value +='9'">
+    
+    <br>
+    <input type="button" name=BTN4 class="num" value="4" onclick="calc.input.value +='4'">
+    <input type="button" name=BTN5 class="num" value="5" onclick="calc.input.value +='5'">
+    <input type="button" name=BTN6 class="num" value="6" onclick="calc.input.value +='6'">
+    
+    <br>
+    <input type="button" name=BTN1 class="num" value="1" onclick="calc.input.value +='1'">
+    <input type="button" name=BTN2 class="num" value="2" onclick="calc.input.value +='2'">
+    <input type="button" name=BTN3 class="num" value="3" onclick="calc.input.value +='3'">
+    <br>
+    <input type="button" name=BTN0 class="num" value="0" onclick="calc.input.value +='0'">
+    <input type="button" name=dot class="num" value="." onclick="calc.input.value +='.'">
+    <input type="button"  name=enter value="=" onclick="calc.input.value = eval(calc.input.value)">
+    <br>
+    </form>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
